@@ -387,7 +387,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex-1 container mx-auto px-4 py-8 flex flex-col items-center justify-center">
         <h1 className="text-[3.8vw] sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-center leading-tight w-full whitespace-nowrap" style={{ color: "#103586" }}>
-          MÓDULO DE CONSULTA DEL ESTADO DE REGISTRO
+          MÓDULO DE REGISTRO DE HISTORIAL LABORAL F1
         </h1>
         <div className="w-full max-w-2xl">
           <div className="text-center mb-6">
