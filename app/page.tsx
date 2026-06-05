@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { RefreshCw } from "lucide-react"
 import Image from "next/image"
-import ResultadoBusqueda from "@/components/resultado-busqueda"
+import FormularioF1 from "@/components/formulario-f1"
 import ModalAviso from "@/components/modal-aviso"
 import ModalAdvertencia from "@/components/modal-advertencia"
   import ModalError from "@/components/modal-error"
@@ -330,7 +330,7 @@ export default function Home() {
   }
 
   if (vistaActual === "resultado") {
-    return <ResultadoBusqueda alSalir={manejarSalir} codigoCaptcha={codigoCaptcha} numeroDocumento={numeroDocumento} />
+    return <FormularioF1 alSalir={manejarSalir} numeroDocumento={numeroDocumento} />
   }
 
   return (
